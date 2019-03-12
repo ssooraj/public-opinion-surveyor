@@ -1,0 +1,31 @@
+<body>
+	<div class="page-content" style="background-image: url('/assets/wizard-v1.jpg')">
+		<div class="wizard-v1-content">
+			<div class="wizard-form">
+				<form class="form-register" id="form-register" action="#" method="post">
+					<div id="form-total">
+						<!-- SECTION 1 -->
+						<% @questions.each_with_index do |question, index| %>
+						<h2>
+							<!-- <span class="step-icon"><i class="zmdi zmdi-account"></i></span> -->
+							<span class="step-number"><%= index+1 %>. </span>
+							<span class="step-text"><%= question.question %></span>
+						</h2>
+						<section>
+							<div class="inner">
+								<% question.answers.each do |answer| %>
+								<div class="form-row">
+									<%= radio_button_tag question.id, answer.id %>
+									<label for="username"><%= answer.answer %></label>
+								</div>
+								<% end %>
+							</div>
+						</section>
+						<% end %>
+
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
