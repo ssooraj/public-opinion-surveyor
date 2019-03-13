@@ -7,9 +7,10 @@ $(function(){
             type: "POST",
             url: "/polls/save_response",
             data: values,
-            async: false
-        }).success(function (response) {
+            async: false,
+            success: function (response) {
 
+            }
         });
     });
 });
