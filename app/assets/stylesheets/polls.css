@@ -1,3 +1,40 @@
-// Place all the styles related to the polls controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+input[type=checkbox], input[type=radio]{
+    margin: 10px;
+    font-family: inherit;
+    font-size: 20px;
+    line-height: inherit;
+}
+label{
+    font-size: 20px;
+}
+.inner .form-row {
+    display: block !important;
+    margin: 0 30px !important;
+    position: relative;
+}
+.form-row button{
+    margin-left: 49%;
+    margin-top: 5%;
+}
+select{
+    background: url(/assets/down-arrow-yellow.png) no-repeat;
+    background-position: calc(100% - 7px) calc(1em + -5px),calc(100% - 16px) calc(1em + 0px),100% 10px;
+    background-size: 15px 17px, 6px 13px, 2.5em 2.5em;
+    background-repeat: no-repeat;
+    border: thin solid #16253f;
+    cursor: pointer;
+    font: 300 1em/100% "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5em;
+    padding: 8px 25px 8px 8px !important;
+    border-radius: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    min-width: auto;
+    width: 90px;
+    margin-left: 35px;
+    width: 135px;
+}
