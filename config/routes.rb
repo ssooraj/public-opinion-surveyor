@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 	resource :polls do
 		get :voter
 		post :save_response
+		get :thanks
 	end
 
 	resources :responses do

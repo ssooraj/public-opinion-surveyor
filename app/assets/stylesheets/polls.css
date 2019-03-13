@@ -38,3 +38,20 @@ select{
     margin-left: 35px;
     width: 135px;
 }
+.thanks{
+    width: 720px !important
+}
+.thanks span {
+    margin: 40%;
+    font-size: x-large;
+    font-family: cursive;
+}
+.thanks section{
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: x-large;
+    font-family: cursive;
+}
+.page-content{
+    min-height: 1000px !important;
+}
