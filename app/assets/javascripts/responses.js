@@ -38,7 +38,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[0][2]
             }]
@@ -70,7 +70,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[1][2]
             }]
@@ -102,7 +102,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[2][2]
             }]
@@ -134,7 +134,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[3][2]
             }]
@@ -166,7 +166,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[4][2]
             }]
@@ -198,7 +198,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[5][2]
             }]
@@ -230,7 +230,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[6][2]
             }]
@@ -262,7 +262,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[7][2]
             }]
@@ -294,7 +294,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[8][2]
             }]
@@ -326,7 +326,7 @@ function drawFunc() {
                 }
             },
             series: [{
-                name: 'Brands',
+                name: 'Percentage',
                 colorByPoint: true,
                 data: data[9][2]
             }]
