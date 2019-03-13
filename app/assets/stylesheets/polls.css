@@ -55,3 +55,8 @@ select{
 .page-content{
     min-height: 1000px !important;
 }
+.container {
+    overflow: unset !important;
+    margin-bottom: 25%;
+    margin-top: 8%;
+}
